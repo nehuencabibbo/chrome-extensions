@@ -1,2 +1,2 @@
 # bookmark-extension
-A chrome extension for bookmariking posts 
+A chrome extension for bookmariking posts.
