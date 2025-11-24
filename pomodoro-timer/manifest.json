@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "version": "1.0.0",
+    "description": "A Pomodoro Timer Application",
+    "icons": {
+        "16": "images/pomodoro-logo.png",
+        "48": "images/pomodoro-logo.png",
+        "128": "images/pomodoro-logo.png"
+    },
+    "action": {
+        "default_icon": {              
+            "16": "images/pomodoro-logo.png",   
+            "24": "images/pomodoro-logo.png",   
+            "32": "images/pomodoro-logo.png"    
+        },
+        "default_title": "Click Me",
+        "default_popup": "popup.html"  
+    },
+    "options_page": "options.html",
+    "permissions": ["storage", "alarms", "notifications"],
+    "background": {
+        "service_worker": "background.js"
+    }   
+}

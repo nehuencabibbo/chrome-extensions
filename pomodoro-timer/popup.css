@@ -1,0 +1,77 @@
+:root {
+    --background: #B6174B;
+    --white-bg: #EDEAD0  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 300px;
+    height: 400px;
+    background-color: var(--background);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+header {
+    height: 10%;
+    background-color: var(--white-bg);
+    font-weight: 500;
+    font-size: 1.25rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+#timer {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white-bg);
+    text-align: center;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#actions-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.action-btn {
+    background-color: var(--white-bg);
+    color: var(--background);
+    letter-spacing: 0.05rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+.action-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.action-btn:active {
+    transform: scale(0.98);
+}

@@ -33,3 +33,7 @@ Cada vez que se despierta el service worker el background.js se corre denuevo.
 ## Como hacer que corra el codigo con el servicio idle 
 
 Para eso hay que usar ´Alarmas´. 
+
+## Notificaciones 
+
+Se tienen que firear desde el service worker
